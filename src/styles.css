@@ -1,0 +1,64 @@
+@font-face {
+  font-family: digital;
+  src: url(digital.ttf);
+}
+#main-container {
+  height: 90vh;
+  display: flex;
+  flex-wrap: wrap;
+  overflow: hidden;
+}
+.calculator {
+  margin: auto;
+  padding: 10px;
+  height: 380px;
+  width: 400px;
+  border-radius: 10px;
+  background: linear-gradient(rgb(207, 207, 207), rgba(56, 56, 56, 0.618));
+  box-shadow: rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  border-top: 5px solid rgba(0, 0, 0, 0.271);
+}
+#header {
+  text-align: right;
+  font-style: italic;
+  font-size: 20px;
+  font-weight: 200;
+  margin-right: 10px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#display-box {
+  background: linear-gradient(rgb(23, 23, 23), rgb(48, 48, 48));
+  color: white;
+  border: 5px solid rgba(0, 0, 0, 0.33);
+  border-radius: 5px;
+  width: 96%;
+  height: 100px;
+  margin-bottom: 10px;
+  font-family: digital;
+  font-size: 35px;
+}
+
+.button {
+  width: 100px;
+  height: 70px;
+  font-size: 1.5rem;
+  padding: 20px;
+  border: 1px solid rgb(227, 227, 227);
+  border-radius: 5px;
+  background: #e0e0e0;
+  box-shadow: 20px 20px 30px inset #bebebe90, -10px -10px 10px #ffffff70 inset;
+}
+#eq {
+  width: 205px;
+  font-size: 1.8;
+}
+#ac {
+  color: rgba(161, 0, 0, 20);
+}
+
+.button:hover {
+  background: white;
+}
+
+/*Author: Alqama Hasnain*/
